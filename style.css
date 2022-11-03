@@ -9,13 +9,13 @@ body{
 }
 #container{
     max-width: 1000px;
-    margin: auto;
+    margin:0 auto;
 }
 #content .news{
     width: 49.99999%;
     float: left;
 }
-.clearfix::after {
+#content::after {
     content: "";
     clear: both;
     display: table;
